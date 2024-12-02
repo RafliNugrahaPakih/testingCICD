@@ -6,11 +6,12 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class TestingCicdApplicationTests {
+public class PenjumlahantTest {
 
 	@Test
-	public void contextLoads() {
-
+	public void testPenjumlahan() {
+		int result = Penjumlahan.add(2, 2);
+		assertEquals(4,result);
 	}
 
 }
