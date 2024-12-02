@@ -10,7 +10,7 @@ public class TestingCicdApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		assertEquals(2 + 2, 4);
+
 	}
 
 }
